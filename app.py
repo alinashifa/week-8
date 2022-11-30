@@ -9,8 +9,6 @@ def main():
   number2 = st.number_input("Number 2")
   sum = number1 + number2
   st.success('The output is {}'.format(sum))
-  if st.button("Made By"):
-      st.text("Syeda Ahmedi Fatima")
 
 if __name__=='__main__':
   main()
